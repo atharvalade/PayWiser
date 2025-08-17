@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: facepay-deepface-api
+    env: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.6
+      - key: SUPABASE_URL
+        value: https://nugfkvafpxuaspphxxmd.supabase.co
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      - key: DEEPFACE_MODEL
+        value: VGG-Face
+      - key: DEEPFACE_DETECTOR
+        value: opencv
+      - key: CONFIDENCE_THRESHOLD
+        value: 0.4 
