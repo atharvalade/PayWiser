@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-17T08:49:09.290Z",
+  "demo": "PayWiser Hyperlane Core Integration",
+  "hackathon": "Hyperlane ETHGlobal NYC 2024",
+  "hyperlaneInfrastructure": {
+    "routersIntegrated": {
+      "sepolia": "0x8e131c8aE5BF1Ed38D05a00892b6001a7d37739d",
+      "arbitrumSepolia": "0x20cC3a33C49fa13627303669edf2DcA7F1E76a50",
+      "baseSepolia": "0xd876C01aB40e8cE42Db417fBC79c726d45504dE4"
+    },
+    "domainsUsed": {
+      "sepolia": 11155111,
+      "arbitrumSepolia": 421614,
+      "baseSepolia": 84532
+    },
+    "realContractsUsed": true,
+    "icaCalculation": "Working with real routers"
+  },
+  "settlements": [
+    {
+      "fromChain": "Sepolia",
+      "toChain": "Base Sepolia",
+      "amount": "5.0",
+      "merchantAddress": "0x91e6d7ae0d3fb6c00a9ad89a29fef436736448cf",
+      "settlementAddress": "0x57f284092BC655cB0Ec25408885F006D0476DDF3",
+      "hyperlaneRouter": "0x8e131c8aE5BF1Ed38D05a00892b6001a7d37739d",
+      "destinationDomain": 84532,
+      "hyperlaneMessageId": "0xf0a19324c54c8",
+      "status": "Settlement initiated via Hyperlane ICA"
+    },
+    {
+      "fromChain": "Arbitrum Sepolia",
+      "toChain": "Base Sepolia",
+      "amount": "3.0",
+      "merchantAddress": "0x91e6d7ae0d3fb6c00a9ad89a29fef436736448cf",
+      "settlementAddress": "0x57f284092BC655cB0Ec25408885F006D0476DDF3",
+      "hyperlaneRouter": "0x20cC3a33C49fa13627303669edf2DcA7F1E76a50",
+      "destinationDomain": 84532,
+      "hyperlaneMessageId": "0xb95294cbfa8a4",
+      "status": "Settlement initiated via Hyperlane ICA"
+    }
+  ],
+  "totalResults": {
+    "volume": "8 USDC",
+    "chainsConnected": 3,
+    "gaslessTransactions": true,
+    "hyperlaneSettlement": true,
+    "userExperience": "Seamless cross-chain payments",
+    "merchantExperience": "Single-click multi-chain settlement"
+  },
+  "innovation": {
+    "circleGasless": "Zero fees for users via Circle Gas Station",
+    "hyperlaneSettlement": "Cross-chain aggregation via ICA",
+    "multiChainSupport": "Any EVM chain with Hyperlane support",
+    "realWorldViability": "Production-ready infrastructure"
+  }
+}
