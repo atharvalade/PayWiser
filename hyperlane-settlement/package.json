@@ -1,0 +1,44 @@
+{
+  "name": "paywiser-hyperlane-settlement",
+  "version": "1.0.0",
+  "description": "PayWiser Hyperlane Interchain Settlement System",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node src/test.js",
+    "deploy": "node scripts/deploy.js",
+    "compile": "npx hardhat compile",
+    "test-contracts": "npx hardhat test",
+    "create-wallets": "node scripts/create-demo-wallets.js",
+    "demo": "node scripts/end-to-end-demo.js"
+  },
+  "dependencies": {
+    "@circle-fin/developer-controlled-wallets": "^8.4.0",
+    "@hyperlane-xyz/core": "^3.0.0",
+    "@hyperlane-xyz/sdk": "^3.0.0",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.0",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@types/node": "^20.10.0",
+    "hardhat": "^2.18.0"
+  },
+  "keywords": [
+    "hyperlane",
+    "interchain",
+    "settlement",
+    "paywiser",
+    "cross-chain",
+    "usdc",
+    "usdt"
+  ],
+  "author": "PayWiser Team",
+  "license": "MIT"
+}
