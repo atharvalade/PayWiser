@@ -1,0 +1,44 @@
+{
+  "chainlet": {
+    "id": "paywiser_2755433340225000-1",
+    "name": "paywiser",
+    "symbol": "WISE",
+    "stack_type": "SagaOS 0.10.0",
+    "launch_date": "2025-08-17T10:08:32Z",
+    "status": {
+      "rpc": "Available",
+      "websocket": "Available",
+      "block_explorer": "Available",
+      "funding": "Secure"
+    },
+    "configuration": {
+      "fixed_gas_price": false,
+      "deployment_auth": false,
+      "gas_return_account": "0xA387E3368e1b4904B56b02094Fd1218CCf42947f"
+    },
+    "endpoints": {
+      "rpc": "https://paywiser-2755433340225000-1.jsonrpc.sagarpc.io",
+      "websocket": "https://paywiser-2755433340225000-1.ws.sagarpc.io",
+      "explorer": "https://paywiser-2755433340225000-1.sagaexplorer.io"
+    },
+    "governance": {
+      "owner": "saga16h0v395mx8w87m38gllq7xcxn57epcjtxd9ks0",
+      "maintainers": [
+        "saga16h0v395mx8w87m38gllq7xcxn57epcjtxd9ks0"
+      ]
+    },
+    "genesis_accounts": [
+      {
+        "address": "0xA387E3368e1b4904B56b02094Fd1218CCf42947f",
+        "balance": "100000",
+        "token": "WISE"
+      }
+    ],
+    "features": {
+      "vector_embeddings": true,
+      "biometric_storage": true,
+      "cross_chain_messaging": true,
+      "smart_contracts": true
+    }
+  }
+}
