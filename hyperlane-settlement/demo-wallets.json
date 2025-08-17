@@ -1,0 +1,64 @@
+{
+  "demo": {
+    "aliceSepolia": {
+      "address": "0x26FF9221EFCde94CEFDEC78A87ae414CF0a7a7C9",
+      "privateKey": "0x3af6da11795ba0a3d337e8cfcc56daa0b62c63c70985b89aadddd7735bf9a258",
+      "chain": "sepolia",
+      "chainId": 11155111,
+      "purpose": "Circle wallet payments"
+    },
+    "aliceArbitrum": {
+      "address": "0x6EB3238cE5db1ff39abd0Cf3252B96fe01569B1E",
+      "privateKey": "0x72f194dc00cec6c470c2b015d7b227b260934f2f101c25e637ad43706d9d6804",
+      "chain": "arbitrumSepolia",
+      "chainId": 421614,
+      "purpose": "Direct payments to ICA"
+    },
+    "bobMerchant": {
+      "address": "0x851ca80Bd4029382d470081f90Eb0dD40B430dfd",
+      "privateKey": "0x1a0284530928c99bc66d0d8f9968594d2cfb1c66f10677f838dc748b464c0af0",
+      "chains": [
+        "sepolia",
+        "arbitrumSepolia"
+      ],
+      "purpose": "Merchant receiving payments"
+    },
+    "bobSettlement": {
+      "address": "0x57f284092BC655cB0Ec25408885F006D0476DDF3",
+      "privateKey": "0x9b0559d7742d123d8865ccbfa78f50f966845fe8f8386bd389c87d81f6de31b1",
+      "chain": "baseSepolia",
+      "chainId": 84532,
+      "purpose": "Final settlement destination"
+    }
+  },
+  "funding": {
+    "required": [
+      {
+        "address": "0x26FF9221EFCde94CEFDEC78A87ae414CF0a7a7C9",
+        "chain": "Sepolia",
+        "tokens": [
+          "10 USDC"
+        ],
+        "note": "For Circle wallet payments"
+      },
+      {
+        "address": "0x6EB3238cE5db1ff39abd0Cf3252B96fe01569B1E",
+        "chain": "Arbitrum Sepolia",
+        "tokens": [
+          "10 USDC"
+        ],
+        "note": "For direct ICA payments"
+      }
+    ]
+  },
+  "hyperlaneRouters": {
+    "sepolia": "0x8e131c8aE5BF1Ed38D05a00892b6001a7d37739d",
+    "arbitrumSepolia": "0x20cC3a33C49fa13627303669edf2DcA7F1E76a50",
+    "baseSepolia": "0xd876C01aB40e8cE42Db417fBC79c726d45504dE4"
+  },
+  "usdcAddresses": {
+    "sepolia": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "arbitrumSepolia": "0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+    "baseSepolia": "0x036CbD53842c5426634e7929541eC2318f3dCF7e"
+  }
+}

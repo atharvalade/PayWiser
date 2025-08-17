@@ -1,0 +1,44 @@
+{
+  "aliceSepolia": {
+    "id": "fd9968a5-2dbe-5be5-a8f0-45f8c9d2098b",
+    "state": "LIVE",
+    "walletSetId": "48915e31-9480-5d6f-b1a1-9de46e161af4",
+    "custodyType": "DEVELOPER",
+    "refId": "alice-sepolia-demo",
+    "name": "PayWiser Demo - Alice Sepolia",
+    "address": "0x516e4cf54b667843ca2fa06f040014a572116b16",
+    "blockchain": "ETH-SEPOLIA",
+    "accountType": "SCA",
+    "updateDate": "2025-08-17T08:27:17Z",
+    "createDate": "2025-08-17T08:27:17Z",
+    "scaCore": "circle_6900_singleowner_v3"
+  },
+  "aliceArbitrum": {
+    "id": "983098c6-9e1a-52bf-9b79-d699fb269386",
+    "state": "LIVE",
+    "walletSetId": "48915e31-9480-5d6f-b1a1-9de46e161af4",
+    "custodyType": "DEVELOPER",
+    "refId": "alice-arbitrum-demo",
+    "name": "PayWiser Demo - Alice Arbitrum",
+    "address": "0x4b72b05e9cb08ef73c581ac0ae01d02c3ea3977a",
+    "blockchain": "ARB-SEPOLIA",
+    "accountType": "SCA",
+    "updateDate": "2025-08-17T08:27:17Z",
+    "createDate": "2025-08-17T08:27:17Z",
+    "scaCore": "circle_6900_singleowner_v3"
+  },
+  "bobMerchant": {
+    "id": "6041fb61-e604-5421-9bff-0d425d3dc893",
+    "state": "LIVE",
+    "walletSetId": "48915e31-9480-5d6f-b1a1-9de46e161af4",
+    "custodyType": "DEVELOPER",
+    "refId": "bob-merchant-demo",
+    "name": "PayWiser Demo - Bob Merchant",
+    "address": "0x91e6d7ae0d3fb6c00a9ad89a29fef436736448cf",
+    "blockchain": "ETH-SEPOLIA",
+    "accountType": "SCA",
+    "updateDate": "2025-08-17T08:27:17Z",
+    "createDate": "2025-08-17T08:27:17Z",
+    "scaCore": "circle_6900_singleowner_v3"
+  }
+}
